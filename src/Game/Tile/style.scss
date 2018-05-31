@@ -1,0 +1,20 @@
+$unclaimed-color: #1E273F;
+$player1-color: #51b22f;
+$player2-color: #f30402;
+
+.tile {
+  border: 4px solid black;
+  background: $unclaimed-color;
+
+  &.player1 {
+    background: $player1-color;
+  }
+  &.player2 {
+    background: $player2-color;
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+

@@ -1,0 +1,9 @@
+.tile {
+  border: 4px solid black;
+  background: #1E273F; }
+  .tile.player1 {
+    background: #51b22f; }
+  .tile.player2 {
+    background: #f30402; }
+  .tile:disabled {
+    cursor: not-allowed; }

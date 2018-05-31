@@ -1,0 +1,9 @@
+.game {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 50px;
+  &> .tile {
+    height: 200px;
+  }
+}
