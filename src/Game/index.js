@@ -5,9 +5,14 @@ import _map from 'lodash/map'
 import './style.css'
 
 const initialBoard = [
-  0,0,0,
-  0,0,0,
-  0,0,0,
+  0,0,0,0,0,0,0,0,
+  0,0,0,0,0,0,0,0,
+  0,0,0,0,0,0,0,0,
+  0,0,0,0,0,0,0,0,
+  0,0,0,0,0,0,0,0,
+  0,0,0,0,0,0,0,0,
+  0,0,0,0,0,0,0,0,
+  0,0,0,0,0,0,0,0,
 ]
 
 const updateBoard = (board, player, index) => [
