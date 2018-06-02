@@ -5,6 +5,7 @@ $player2-color: #f30402;
 .tile {
   border: 4px solid black;
   background: $unclaimed-color;
+  outline: none;
 
   &.player1 {
     background: $player1-color;

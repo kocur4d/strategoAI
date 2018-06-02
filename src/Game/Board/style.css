@@ -1,0 +1,7 @@
+.board {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 50px; }
+  .board > .tile {
+    height: 75px; }

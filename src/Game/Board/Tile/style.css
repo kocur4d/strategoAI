@@ -1,6 +1,7 @@
 .tile {
   border: 4px solid black;
-  background: #1E273F; }
+  background: #1E273F;
+  outline: none; }
   .tile.player1 {
     background: #51b22f; }
   .tile.player2 {
